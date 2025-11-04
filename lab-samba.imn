@@ -93,6 +93,23 @@ annotation a1 {
     canvas c1
 }
 
+annotation a2 {
+    iconcoords {158.0 376.0}
+    type text
+    label {admin: seupropriousuario}
+    labelcolor black
+    fontfamily {Arial}
+    fontsize 12
+    canvas c1
+}
+
+annotation a3 {
+    type text
+    iconcoords {288.0 374.0}
+    label {}
+    canvas c1
+}
+
 canvas c1 {
     name {Canvas1}
 }
