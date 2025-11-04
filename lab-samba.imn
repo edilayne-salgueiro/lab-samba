@@ -2,7 +2,7 @@ node n1 {
     type router
     model host
     network-config {
-	hostname n1Host
+	hostname n1flor
 	!
 	interface eth0
 	 ipv6 address 2001:db8:cafe::10/64
@@ -48,7 +48,7 @@ node n2 {
     type router
     model PC
     network-config {
-	hostname n2Client
+	hostname n2abelha
 	!
 	interface eth0
 	 ipv6 address 2001:db8:cafe::20/64
